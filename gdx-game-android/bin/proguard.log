@@ -1,0 +1,108 @@
+ProGuard, version 6.0.3
+ProGuard is released under the GNU General Public License. You therefore
+must ensure that programs that link to it (a, com.a4455jkjh.d, ...)
+carry the GNU General Public License as well. Alternatively, you can
+apply for an exception with the author of ProGuard.
+Reading input...
+Reading program directory [/storage/emulated/0/AppProjects/BloEdit/gdx-game-android/bin/classesrelease_proguard]
+Reading program jar [/storage/emulated/0/AppProjects/BloEdit/gdx-game-android/libs/android-support-v4-24.1.0-internal.jar]
+Reading program jar [/storage/emulated/0/AppProjects/BloEdit/gdx-game-android/libs/gdx-backend-android.jar]
+Reading program jar [/storage/emulated/0/AppProjects/BloEdit/gdx-game-android/libs/android-support-v4-24.1.0.jar]
+Reading program jar [/storage/emulated/0/AppProjects/BloEdit/gdx-game/libs/gdx.jar]
+Reading library jar [/data/data/com.aide.ui/no_backup/.aide/android.jar]
+Initializing...
+Note: the configuration refers to the unknown class 'com.google.vending.licensing.ILicensingService'
+Note: the configuration refers to the unknown class 'com.android.vending.licensing.ILicensingService'
+Note: the configuration refers to the unknown class 'android.support.annotation.Keep'
+Note: the configuration refers to the unknown class 'android.support.annotation.Keep'
+Note: the configuration refers to the unknown class 'android.support.annotation.Keep'
+Note: the configuration refers to the unknown class 'android.support.annotation.Keep'
+Note: the configuration refers to the unknown class 'android.support.annotation.Keep'
+Note: android.support.v4.app.NotificationCompatJellybean calls 'Field.getType'
+Note: com.badlogic.gdx.utils.reflect.Field calls 'Field.getType'
+Note: com.badlogic.gdx.utils.reflect.Field calls 'Field.getGenericType'
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find superclass or interface androidx.fragment.app.Fragment
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced class androidx.fragment.app.Fragment
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced method 'androidx.fragment.app.Fragment getParentFragment()' in program class com.badlogic.gdx.backends.android.AndroidFragmentApplication
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced method 'androidx.fragment.app.Fragment getTargetFragment()' in program class com.badlogic.gdx.backends.android.AndroidFragmentApplication
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced class androidx.fragment.app.Fragment
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced class androidx.fragment.app.Fragment
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced method 'androidx.fragment.app.FragmentActivity getActivity()' in program class com.badlogic.gdx.backends.android.AndroidFragmentApplication
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced class androidx.fragment.app.FragmentActivity
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced method 'android.content.res.Resources getResources()' in program class com.badlogic.gdx.backends.android.AndroidFragmentApplication
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced method 'boolean isRemoving()' in program class com.badlogic.gdx.backends.android.AndroidFragmentApplication
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced class androidx.fragment.app.FragmentActivity
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced class androidx.fragment.app.Fragment
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced class androidx.fragment.app.Fragment
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced class androidx.fragment.app.FragmentActivity
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced class androidx.fragment.app.Fragment
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced class androidx.fragment.app.FragmentActivity
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced class androidx.fragment.app.Fragment
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced class androidx.fragment.app.Fragment
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced class androidx.fragment.app.Fragment
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced class androidx.fragment.app.Fragment
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced class androidx.fragment.app.Fragment
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced class androidx.fragment.app.FragmentActivity
+Warning: com.badlogic.gdx.backends.android.AndroidFragmentApplication: can't find referenced class androidx.fragment.app.Fragment
+Note: android.support.v4.media.ParceledListSliceAdapterApi21: can't find dynamically referenced class android.content.pm.ParceledListSlice
+Note: android.support.v4.text.ICUCompatApi23: can't find dynamically referenced class libcore.icu.ICU
+Note: android.support.v4.text.ICUCompatIcs: can't find dynamically referenced class libcore.icu.ICU
+Note: android.support.v4.app.NotificationCompatJellybean accesses a declared field 'icon' dynamically
+      Maybe this is program field 'android.support.v4.app.NotificationCompat$Action { int icon; }'
+      Maybe this is program field 'com.badlogic.gdx.scenes.scene2d.ui.Tree$Node { com.badlogic.gdx.scenes.scene2d.utils.Drawable icon; }'
+      Maybe this is library field 'android.R$attr { int icon; }'
+      Maybe this is library field 'android.R$id { int icon; }'
+      Maybe this is library field 'android.app.LauncherActivity$ListItem { android.graphics.drawable.Drawable icon; }'
+      Maybe this is library field 'android.app.Notification { int icon; }'
+      Maybe this is library field 'android.app.Notification$Action { int icon; }'
+      Maybe this is library field 'android.appwidget.AppWidgetProviderInfo { int icon; }'
+      Maybe this is library field 'android.content.pm.PackageItemInfo { int icon; }'
+      Maybe this is library field 'android.content.pm.ResolveInfo { int icon; }'
+      Maybe this is library field 'android.inputmethodservice.Keyboard$Key { android.graphics.drawable.Drawable icon; }'
+      Maybe this is library field 'android.service.notification.Condition { int icon; }'
+      Maybe this is library field 'android.speech.tts.TextToSpeech$EngineInfo { int icon; }'
+Note: android.support.v4.app.NotificationCompatJellybean accesses a declared field 'title' dynamically
+      Maybe this is program field 'android.support.v4.app.NotificationCompat$Action { java.lang.CharSequence title; }'
+      Maybe this is program field 'com.LemonSpirit.BloEdit.DataHand.Meta { java.lang.String title; }'
+      Maybe this is library field 'android.R$attr { int title; }'
+      Maybe this is library field 'android.R$id { int title; }'
+      Maybe this is library field 'android.app.Notification$Action { java.lang.CharSequence title; }'
+      Maybe this is library field 'android.preference.PreferenceActivity$Header { java.lang.CharSequence title; }'
+Note: android.support.v4.app.NotificationCompatJellybean accesses a declared field 'actionIntent' dynamically
+      Maybe this is program field 'android.support.v4.app.NotificationCompat$Action { android.app.PendingIntent actionIntent; }'
+      Maybe this is library field 'android.app.Notification$Action { android.app.PendingIntent actionIntent; }'
+Note: android.support.v4.app.NotificationManagerCompatKitKat accesses a declared field 'OP_POST_NOTIFICATION' dynamically
+      Maybe this is program field 'android.support.v4.app.NotificationManagerCompatKitKat { java.lang.String OP_POST_NOTIFICATION; }'
+Note: the configuration keeps the entry point 'android.support.v4.view.ViewPager { void setAdapter(android.support.v4.view.PagerAdapter); }', but not the descriptor class 'android.support.v4.view.PagerAdapter'
+Note: the configuration keeps the entry point 'android.support.v4.view.ViewPager { void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener); }', but not the descriptor class 'android.support.v4.view.ViewPager$OnPageChangeListener'
+Note: the configuration keeps the entry point 'android.support.v4.widget.DrawerLayout { void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener); }', but not the descriptor class 'android.support.v4.widget.DrawerLayout$DrawerListener'
+Note: the configuration keeps the entry point 'android.support.v4.widget.NestedScrollView { void setOnScrollChangeListener(android.support.v4.widget.NestedScrollView$OnScrollChangeListener); }', but not the descriptor class 'android.support.v4.widget.NestedScrollView$OnScrollChangeListener'
+Note: the configuration keeps the entry point 'android.support.v4.widget.SlidingPaneLayout { void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener); }', but not the descriptor class 'android.support.v4.widget.SlidingPaneLayout$PanelSlideListener'
+Note: the configuration keeps the entry point 'android.support.v4.widget.SwipeRefreshLayout { void setOnRefreshListener(android.support.v4.widget.SwipeRefreshLayout$OnRefreshListener); }', but not the descriptor class 'android.support.v4.widget.SwipeRefreshLayout$OnRefreshListener'
+Note: there were 7 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 3 classes trying to access generic signatures using reflection.
+      You should consider keeping the signature attributes
+      (using '-keepattributes Signature').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#attributes)
+Note: there were 6 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 3 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Note: there were 4 accesses to class members by means of introspection.
+      You should consider explicitly keeping the mentioned class members
+      (using '-keep' or '-keepclassmembers').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclassmember)
+Warning: there were 18 unresolved references to classes or interfaces.
+         You may need to add missing library jars or update their versions.
+         If your code works fine without the missing classes, you can suppress
+         the warnings with '-dontwarn' options.
+         (http://proguard.sourceforge.net/manual/troubleshooting.html#unresolvedclass)
+Warning: there were 5 unresolved references to program class members.
+         Your input classes appear to be inconsistent.
+         You may need to recompile the code.
+         (http://proguard.sourceforge.net/manual/troubleshooting.html#unresolvedprogramclassmember)
